@@ -23,6 +23,7 @@
   border-radius: 10px;  
 }
 
+
 .body {
   background: blue;
   position: absolute;
@@ -31,4 +32,138 @@
   top: 0;
   margin-top: 140px;
   margin-left: 130px;
+}
+
+
+.menu-home{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 11px;
+  top: 126px;
+
+  background: #2457AB;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF; 
+}
+
+
+.transferencia{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 1px;
+  top: 162px;
+
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF;
+}
+
+.pagamento{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 0px;
+  top: 234px;
+  
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF;
+
+}
+
+.cartoes{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 0px;
+  top: 198px;
+  
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF;
+}
+.emprestimo{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 0px;
+  top: 270px;
+  
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF;
+}
+.ajuda{
+  position: absolute;
+  width: 143px;
+  height: 36px;
+  left: 0px;
+  top: 306px;
+  
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;  
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 53px;
+  padding-top: 9px;
+  color: #FFFFFF;
+
 }
