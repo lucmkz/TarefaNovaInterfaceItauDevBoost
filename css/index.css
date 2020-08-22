@@ -19,6 +19,7 @@ button {
   left: 0px;
   top: 0px;
   background: #CAA360;
+  margin-top: 20px;
 }
 
 .menu-div div:hover {
@@ -26,17 +27,6 @@ button {
   background-color: blue;
 }
 
-.body {
-  background: #F6EADF;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  margin-top: 140px;
-  margin-left: 143px;
-  z-index: -1;
-  padding: 20px;
-}
 
 .img-home{
   background-image: url("../assets/home.svg");
@@ -117,6 +107,9 @@ background-repeat: no-repeat;
   background: #062C6A;
   background-image: url("../assets/minimize.svg"); 
   background-repeat: no-repeat;  
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 47%;
 }
 
 .menu-home{
@@ -378,12 +371,15 @@ background-repeat: no-repeat;
 }
 
 .body {
+  height: calc(100% - 140px);
+  top: 0;
+  background: #F6EADF;
   position: absolute;
   width: 100%;
-  height: 100%;
-  top: 0;
   margin-top: 140px;
-  margin-left: 130px;
+  margin-left: 143px;
+  z-index: -1;
+  padding: 20px;
 }
 
 .saldo-lancamentos{
