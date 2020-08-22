@@ -303,11 +303,25 @@
   background: #F7F2EE;
   border-radius: 10px;
 }
+.saldo-lancamentos{
+  font-size: 18px;
+  padding: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 .saldo-lancamentos__menu{
   display: flex;
+  
 }
 .saldo-lancamentos__menu li{
-  margin: 7px;
+  margin: 5px 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
 }
 .saldo-lancamentos__menu li.active{
   border-bottom: 1.5px solid;
@@ -316,6 +330,42 @@
 .saldo-lancamentos__limite{
   display: flex;
   justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+  
+}
+
+.lancamentos__limite--fatura p {
+  margin: 0;
+  font-size: 12px;
+}
+.lancamentos__limite--fatura h5{
+  position: relative;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+}
+
+.saldo-lancamentos__limite--fatura-aberta h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0px;
+}
+.saldo-lancamentos__limite--fatura-aberta p{
+ margin: 0;
+ font-size: 12px;
+}
+/* .saldo-lancamentos__limite--fatura-aberta span{
+  font-size: 5px;
+} */
+
+.saldo-lancamentos__limite--simbolo{
+  font-size: 18px;
+  position: absolute;
+  left: -24px;
+  top: -5px;
 }
 
 .dados-cartao{
