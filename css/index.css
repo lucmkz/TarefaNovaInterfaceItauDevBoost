@@ -15,7 +15,6 @@
   border-radius: 10px;  
 }
 
-
 .body {
   background: blue;
   position: absolute;
@@ -25,7 +24,6 @@
   margin-top: 140px;
   margin-left: 130px;
 }
-
 
 .menu-home{
   position: absolute;
@@ -47,7 +45,6 @@
   padding-top: 9px;
   color: #FFFFFF; 
 }
-
 
 .transferencia{
   position: absolute;
@@ -137,6 +134,7 @@
   padding-top: 9px;
   color: #FFFFFF;
 }
+
 .ajuda{
   position: absolute;
   width: 143px;
@@ -159,6 +157,8 @@
   color: #FFFFFF;
 
 }
+
+
 .header-div{
   display: flex;
     justify-content: space-between;
