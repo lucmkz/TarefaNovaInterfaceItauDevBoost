@@ -50,7 +50,6 @@ bottom: 12.5%;
 background-repeat: no-repeat;  
 }
 
-
 .img-transferencia{  
   background-image: url("../assets/transfer.png");
 position: absolute;
@@ -61,7 +60,6 @@ bottom: 12.5%;
 background-repeat: no-repeat;  
 }
 
-
 .img-cartoes{  
   background-image: url("../assets/credit-card.svg");
 position: absolute;
@@ -71,7 +69,6 @@ top: 24.33%;
 bottom: 12.5%;
 background-repeat: no-repeat;  
 }
-
 
 .img-emprestimo{  
   background-image: url("../assets/file-text.svg");
@@ -93,7 +90,6 @@ bottom: 12.5%;
 background-repeat: no-repeat;  
 }
 
-
 .img-ajuda{  
   background-image: url("../assets/lightbulb.svg");
 position: absolute;
@@ -106,13 +102,13 @@ background-repeat: no-repeat;
 
 .img-footer{
   position: absolute;
-width: 40px;
-height: 38.46px;
-left: 100px;
-top: 733px;
-
-background: #062C6A;
-
+  width: 40px;
+  height: 38.46px;
+  left: 100px;
+  top: 733px;
+  background: #062C6A;
+  background-image: url("../assets/minimize.svg"); 
+  background-repeat: no-repeat;  
 }
 .menu-home{
   position: absolute;
@@ -372,7 +368,6 @@ background: #062C6A;
   background-color: blue;
 }
 
-
 .body {
   position: absolute;
   width: 100%;
@@ -388,6 +383,7 @@ background: #062C6A;
   background: #F7F2EE;
   border-radius: 10px;
 }
+
 .saldo-lancamentos__menu{
   display: flex;
 }
