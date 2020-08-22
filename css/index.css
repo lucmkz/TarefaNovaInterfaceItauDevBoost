@@ -28,6 +28,7 @@
   margin-top: 140px;
   margin-left: 143px;
   z-index: -1;
+  padding: 20px;
 }
 
 .img-home{
@@ -404,12 +405,15 @@ background: #062C6A;
 }
 
 .dados-cartao{
-  width: 528px;
+  /* width: 528px;
   height: 20rem;
   background: #F6F2EE;
   border: solid 1px;
-  border-radius: 10px;
+  border-radius: 10px; */
+  height: 647px;
+  width: 528px;
 }
+
 .dados-cartao__minha-conta{
   width: 200px;
   height: 20rem;
@@ -426,4 +430,18 @@ background: #062C6A;
 .geral{
   display: flex;
   justify-content: space-around;
+}
+
+.minha-conta, .pagamentos, .ultimas-transferencias{
+  width: 528px;
+  height: 20rem;
+  background: #F6F2EE;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.dados-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
