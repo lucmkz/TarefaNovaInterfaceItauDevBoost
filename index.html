@@ -53,8 +53,7 @@
           <div class="pagamento"><i class="img-pagamento"></i>Pagamento</div>    
           <div class="emprestimo"><i class="img-emprestimo"></i>Empréstimos</div>    
           <div class="ajuda"><i class="img-ajuda"></i>Ajuda</div>                        
-          <div class="img-footer"></div>   
-
+          <div class="img-footer"><i class="img-minimize"></i></div>
         </div>
     </section>
     <section class="body">
@@ -67,10 +66,15 @@
               <li role="presentation" class="saldo-lancamentos__menu">Ver Extrato</li>
             </ul>
             <div class="saldo-lancamentos__limite">
-                <img src="./assets/cartao_credito.png" alt="">
-                <div>
+                <div class="saldo-lancamentos__limite--fatura-aberta">
+                  <img src="./assets/cartao_credito.png" alt="">
+                  <p>Fatura aberta</p>
+                    <h5>R$ 100,00</h5>
+                  <p>Vencimento 08/09</p>
+                </div>
+                <div class="lancamentos__limite--fatura">
                   <p>Limite disponível</p>
-                  <h4 class="">R$ 1.000,00</h5>
+                  <h5 ><span class="saldo-lancamentos__limite--simbolo">R$</span>1.000,00</h5>
                   <p>Melhor dia de compras</p>
                 </div>
             </div>
@@ -86,11 +90,42 @@
               <li role="presentation" class="saldo-lancamentos__menu">Valor (RS)</li>
             </div>
         </div>
-        <div class="dados-cartao">
+        <div class="dados-user">
+
           <div class="minha-conta">
+            <div>
+                <span class="dados-user_nome">Informações do cliente</span>
+            </div>
+
+            <div class="menuInfocliente">
+                <span class="menuInfocliente_active">Minha Conta</span>
+                <span class="menuInfocliente_inactive">Contatos</span>
+                <span class="menuInfocliente_inactive">Agencia</span>
+            </div>
+
+            <div class="menuInfocliente_columns">
+                <div class="dados-user_informacoesCliente">
+                    <h5 class="h5Size">Henrique C. Moraes</h5>
+                    <span>Agência: 0704</span>
+                    <span>Conta: 10258-8</span>
+                    <span>CPF: 123.456.789-58</span>
+                </div>
+                <div class="dados-user_others">
+                    <div>
+                        <h5 class="h5Size">Beltrano detal</h5>
+                        <div class="foto_beltrano"></div>
+                    </div>
+                    <span>Telefone: 9999-9999</span>
+                    <span>Celular: 99999-9999</span>
+                    <button>Enviar Menssagem</button>
+                </div>
+            </div>
+
           </div>
+
           <div class="pagamentos">
           </div>
+
           <div class="ultimas-transferencias">
           </div>
         </div>
