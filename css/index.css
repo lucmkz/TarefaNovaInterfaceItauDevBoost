@@ -392,16 +392,21 @@ background-repeat: no-repeat;
   background: #F7F2EE;
   border-radius: 10px;
 }
+.saldo-lancamentos h3 {
+  margin-left: 10px;
+}
 
 .saldo-lancamentos__menu{
   display: flex;
+  width: 100%;
+  
   
 }
 .saldo-lancamentos__menu li{
   margin: 5px 28px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 300;
+  font-weight: lighter;
   font-size: 12px;
 }
 .saldo-lancamentos__menu li.active{
@@ -416,19 +421,44 @@ background-repeat: no-repeat;
 .fatura-aberta {
   padding: 10px;
 }
+
+.fatura-valor {
+  font-weight: bold;
+}
 .saldo-extrato {
   display: flex;
   width: 494px;
-  height: 280px;
+  height: 268px;
   margin-left: 7px;
   background-color:#FFFFFF;
   border-radius: 10px;
+  flex-direction: column;
+  padding: 4px;
 }
 .saldo-extrato li {
   justify-content: space-between;
   font-family: Roboto;
   font-style: normal;
   
+}
+
+.extrato-tabela {
+  display: flex;
+}
+
+.tabela {
+  background-color: #F6EADF;
+  border-radius: 10px;
+}
+
+.tabela-header > li{
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: lighter;
+}
+
+.saldo-lancamentos-linhas {
+  display: flex;
 }
 
 .lancamentos__limite--fatura p {
