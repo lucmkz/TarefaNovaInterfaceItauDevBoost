@@ -19,7 +19,7 @@ button {
   left: 0px;
   top: 0px;
   background: #CAA360;
-  margin-top: 20px;
+  border-right: 1px solid;
 }
 
 .menu-div div:hover {
@@ -117,7 +117,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 11px;
-  top: 126px;
+  top: 145px;
 
   background: #2457AB;
   border: 1px solid #7E7E7E;
@@ -138,7 +138,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 1px;
-  top: 162px;
+  top: 181px;
 
   background: #062C6A;
   border: 1px solid #7E7E7E;
@@ -159,7 +159,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 0px;
-  top: 234px;
+  top: 251px;
   
   background: #062C6A;
   border: 1px solid #7E7E7E;
@@ -181,7 +181,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 0px;
-  top: 198px;
+  top: 216px;
   
   background: #062C6A;
   border: 1px solid #7E7E7E;
@@ -207,7 +207,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 0px;
-  top: 270px;
+  top: 286px;
   
   background: #062C6A;
   border: 1px solid #7E7E7E;
@@ -228,7 +228,7 @@ background-repeat: no-repeat;
   width: 143px;
   height: 36px;
   left: 0px;
-  top: 306px;
+  top: 321px;
   
   background: #062C6A;
   border: 1px solid #7E7E7E;
@@ -370,12 +370,12 @@ background-repeat: no-repeat;
   background-color: blue;
 }
 
-.body {
-  height: calc(100% - 140px);
+.body {  
+  height: calc(100vh - 120px);
+  width: calc(100% - 143px);
   top: 0;
   background: #F6EADF;
   position: absolute;
-  width: 100%;
   margin-top: 140px;
   margin-left: 143px;
   z-index: -1;
@@ -508,7 +508,7 @@ background-repeat: no-repeat;
 
 .menuInfocliente{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .menuInfocliente_active{
@@ -559,4 +559,20 @@ background-repeat: no-repeat;
 
  .dados-user_others button:hover {
    background: blue;
+ }
+
+ .menu_card{
+  width: 240px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .Gerente {
+  margin-right: 27px;
+  font-size: 17px;
+  color: chocolate;
+ }
+
+ .header {
+  border-bottom: 1px solid;
  }
