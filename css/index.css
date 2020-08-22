@@ -441,3 +441,30 @@ background-repeat: no-repeat;
   flex-direction: column;
   justify-content: space-between;
 }
+
+.titulo-pagamentos{
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 758px;
+  top: 256px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #28262E;
+}
+
+.card {
+  position: absolute;
+  width: 265px;
+  height: 160px;
+  left: 743px;
+  top: 274px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
