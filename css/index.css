@@ -371,7 +371,7 @@ background-repeat: no-repeat;
 }
 
 .body {  
-  height: calc(100vh - 120px);
+  height: calc(100vh - 140px);
   width: calc(100% - 143px);
   top: 0;
   background: #F6EADF;
