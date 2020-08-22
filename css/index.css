@@ -13,9 +13,14 @@
 }
 
 .menu-div{
-  height: 100vh;
-  width: 130px;
-  background: #ff0;
+  position: absolute;
+  width: 143px;
+  height: 781px;
+  left: 0px;
+  top: 0px;
+
+  background: #CAA360;
+  border-radius: 10px;  
 }
 
 .body {
