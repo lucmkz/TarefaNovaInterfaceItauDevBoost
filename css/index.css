@@ -1,3 +1,8 @@
+button {
+  background: #062C6A;
+  color: #fff!important;
+}
+
 .header-div{
   background: #CAA360;
   height: 140px;
@@ -438,6 +443,7 @@ background: #062C6A;
   background: #F6F2EE;
   border: solid 1px;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .dados-user {
@@ -445,3 +451,62 @@ background: #062C6A;
   flex-direction: column;
   justify-content: space-between;
 }
+
+.dados-user_nome {
+  font-size: 25px;
+}
+
+.menuInfocliente{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuInfocliente_active{
+  border-bottom: 1px solid black;
+}
+
+.menuInfocliente span:hover {
+  cursor: pointer;
+}
+
+.menuInfocliente_columns{
+  display: flex;
+  justify-content: space-around;
+}
+
+.dados-user_informacoesCliente{
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-user_others{
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-user_others div{
+  display: flex;
+}
+
+ .foto_beltrano{
+   background-image: url('../assets/avatar.png');
+   height: 40px;
+   width: 40px;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-left: 20px;
+   background-size: cover;
+ }
+
+ .h5Size {
+   font-size: 18px;
+ }
+
+ .dados-user_others button {
+   height: 29px;
+   border-radius: 20px;
+ }
+
+ .dados-user_others button:hover {
+   background: blue;
+ }
