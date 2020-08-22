@@ -7,7 +7,7 @@
 }
 
 .header-div{
-  background: #0f0;
+  background: #CAA360;
   height: 140px;
   width: 100%;
 }
@@ -26,4 +26,106 @@
   top: 0;
   margin-top: 140px;
   margin-left: 130px;
+}
+
+.header-div{
+  display: flex;
+    justify-content: space-between;
+}
+
+.header-div_left {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  align-items: center;
+}
+
+.header-iconeItau{
+  background-image: url("../assets/icon.png");
+  width: 110px;
+  height: 90px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
+.header-userInfos_personalite{
+  background-image: url('../assets/personalite.png');
+  width: 175px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+
+.header-userInfos_text {
+  font-size: 20px;
+}
+
+.header-div_right {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-div_right input{
+  height: 50px;
+  width: 325px;
+  border-radius: 9px;
+  padding-left: 45px;
+}
+
+.header-help{
+  background-image: url('../assets/lightbulb.png');
+  height: 35px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-help:hover{
+  cursor: pointer;
+}
+
+.header-notificação{
+  background-image: url('../assets/bell.png');
+  height: 35px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-notificação:hover{
+  cursor: pointer;
+}
+
+.header-settings{
+  background-image: url('../assets/settings.png');
+  height: 35px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-settings:hover{
+  cursor: pointer;
+}
+
+.header-foto{
+  background-image: url('../assets/avatar.png');
+  height: 90px;
+  width: 115px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-foto:hover{
+  cursor: pointer;
+}
+
+.searchIcon {
+  background-image: url('../assets/search.png');
+  height: 20px;
+  width: 25px;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 15px;
 }
