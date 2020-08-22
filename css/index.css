@@ -7,12 +7,15 @@
 .menu-div{
   position: absolute;
   width: 143px;
-  height: 781px;
+  height: 100%;
   left: 0px;
   top: 0px;
-
   background: #CAA360;
-  border-radius: 10px;  
+}
+
+.menu-div div:hover {
+  cursor: pointer;
+  background-color: blue;
 }
 
 
