@@ -389,7 +389,6 @@ background-repeat: no-repeat;
   background: #F7F2EE;
   border-radius: 10px;
 }
-<<<<<<< HEAD
 .saldo-lancamentos{
   font-size: 18px;
   padding: 2rem;
@@ -397,9 +396,6 @@ background-repeat: no-repeat;
   font-style: normal;
   font-weight: normal;
 }
-
-=======
->>>>>>> c63af5595c5de0dd7920aef4917ccf55518048f9
 
 .saldo-lancamentos__menu{
   display: flex;
@@ -512,7 +508,7 @@ background-repeat: no-repeat;
   border-radius: 10px;
 }
 .dados-user_nome {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .menuInfocliente{
@@ -568,4 +564,37 @@ background-repeat: no-repeat;
 
  .dados-user_others button:hover {
    background: blue;
+ }
+
+
+ .titulo-pagamentos{
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 751px;
+  top: 255px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */   
+  color: #28262E;  
+ }
+
+ .titulo-transferencia{
+  position: absolute;
+  width: 119px;
+  height: 21px;
+  left: 706px;
+  top: 567px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */  
+  color: #28262E;
  }
