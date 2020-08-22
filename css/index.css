@@ -1,8 +1,14 @@
+button {
+  background: #062C6A;
+  color: #fff!important;
+}
+
 .header-div{
   background: #CAA360;
   height: 140px;
   width: 100%;
 }
+
 
 .menu-div{
   position: absolute;
@@ -18,7 +24,6 @@
   background-color: blue;
 }
 
-
 .body {
   background: blue;
   position: absolute;
@@ -28,9 +33,89 @@
   margin-top: 140px;
   margin-left: 143px;
   z-index: -1;
+  padding: 20px;
 }
 
+.img-home{
+  background-image: url("../assets/home.svg");
+  position: absolute;
+  left: 12.5%;
+  right: 37.5%;
+  top: 19%;
+  bottom: 8.33%;  
+  background-repeat: no-repeat;  
+}
 
+.img-transferencia{  
+  background-image: url("../assets/transfer.png");
+position: absolute;
+left: 12.5%;
+right: 8.33%;
+top: 24.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-transferencia{  
+  background-image: url("../assets/transfer.png");
+position: absolute;
+left: 12.5%;
+right: 8.33%;
+top: 24.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-cartoes{  
+  background-image: url("../assets/credit-card.svg");
+position: absolute;
+left: 12.5%;
+right: 8.33%;
+top: 24.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-emprestimo{  
+  background-image: url("../assets/file-text.svg");
+position: absolute;
+left: 12.5%;
+right: 8.33%;
+top: 24.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-pagamento{  
+  background-image: url("../assets/dollar-sign.svg");
+position: absolute;
+left: 12.5%;
+right: 8.33%;
+top: 24.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-ajuda{  
+  background-image: url("../assets/lightbulb.svg");
+position: absolute;
+left: 7.5%;
+right: 8.33%;
+top: 1.33%;
+bottom: 12.5%;
+background-repeat: no-repeat;  
+}
+
+.img-footer{
+  position: absolute;
+  width: 40px;
+  height: 38.46px;
+  left: 100px;
+  top: 733px;
+  background: #062C6A;
+  background-image: url("../assets/minimize.svg"); 
+  background-repeat: no-repeat;  
+}
 .menu-home{
   position: absolute;
   width: 143px;
@@ -50,8 +135,7 @@
   padding-left: 53px;
   padding-top: 9px;
   color: #FFFFFF; 
-}
-
+} 
 
 .transferencia{
   position: absolute;
@@ -121,6 +205,7 @@
   padding-top: 9px;
   color: #FFFFFF;
 }
+
 .emprestimo{
   position: absolute;
   width: 143px;
@@ -141,6 +226,7 @@
   padding-top: 9px;
   color: #FFFFFF;
 }
+
 .ajuda{
   position: absolute;
   width: 143px;
@@ -161,8 +247,9 @@
   padding-left: 53px;
   padding-top: 9px;
   color: #FFFFFF;
-
+  
 }
+
 .header-div{
   display: flex;
     justify-content: space-between;
@@ -287,7 +374,6 @@
   background-color: blue;
 }
 
-
 .body {
   position: absolute;
   width: 100%;
@@ -303,6 +389,7 @@
   background: #F7F2EE;
   border-radius: 10px;
 }
+<<<<<<< HEAD
 .saldo-lancamentos{
   font-size: 18px;
   padding: 2rem;
@@ -311,6 +398,8 @@
   font-weight: normal;
 }
 
+=======
+>>>>>>> c63af5595c5de0dd7920aef4917ccf55518048f9
 
 .saldo-lancamentos__menu{
   display: flex;
@@ -369,12 +458,15 @@
 }
 
 .dados-cartao{
-  width: 528px;
+  /* width: 528px;
   height: 20rem;
   background: #F6F2EE;
   border: solid 1px;
-  border-radius: 10px;
+  border-radius: 10px; */
+  height: 647px;
+  width: 528px;
 }
+
 .dados-cartao__minha-conta{
   width: 200px;
   height: 20rem;
@@ -392,3 +484,77 @@
   display: flex;
   justify-content: space-around;
 }
+
+.minha-conta, .pagamentos, .ultimas-transferencias{
+  width: 528px;
+  height: 20rem;
+  background: #F6F2EE;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dados-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dados-user_nome {
+  font-size: 25px;
+}
+
+.menuInfocliente{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuInfocliente_active{
+  border-bottom: 1px solid black;
+}
+
+.menuInfocliente span:hover {
+  cursor: pointer;
+}
+
+.menuInfocliente_columns{
+  display: flex;
+  justify-content: space-around;
+}
+
+.dados-user_informacoesCliente{
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-user_others{
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-user_others div{
+  display: flex;
+}
+
+ .foto_beltrano{
+   background-image: url('../assets/avatar.png');
+   height: 40px;
+   width: 40px;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-left: 20px;
+   background-size: cover;
+ }
+
+ .h5Size {
+   font-size: 18px;
+ }
+
+ .dados-user_others button {
+   height: 29px;
+   border-radius: 20px;
+ }
+
+ .dados-user_others button:hover {
+   background: blue;
+ }
