@@ -533,7 +533,7 @@ background-repeat: no-repeat;
 }
 
 .dados-user_nome {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .menuInfocliente{
@@ -591,50 +591,6 @@ background-repeat: no-repeat;
    background: blue;
  }
 
- .card-pagamentos{
-  position: absolute;
-  width: 265px;
-  height: 140px;
-  left: 860px;
-  top: 290px;
-  
-  background: #FFFFFF;
-  border-radius: 10px;
- }
-
-.card-transferencia{
-  position: absolute;
-  width: 265px;
-  height: 137px;
-  left: 860px;
-  top: 518px;
-  
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
-.card-top-pagamentos{
-  position: absolute;
-width: 221px;
-height: 116px;
-left: 1138px;
-top: 290px;
-
-background: #FFFFFF;
-border-radius: 10px;
-}
-
-
-.card-top-transferencia{
-  position: absolute;
-width: 221px;
-height: 116px;
-left: 1138px;
-top: 518px;
-
-background: #FFFFFF;
-border-radius: 10px;
-}
  .menu_card{
   width: 240px;
   display: flex;

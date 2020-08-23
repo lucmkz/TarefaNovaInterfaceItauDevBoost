@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  
+  <script src="https://unpkg.com/feather-icons%22%3E"></script>  
   <title>Document</title>
 </head>
 <body>
@@ -59,7 +59,7 @@
     <section class="body">
       <main class="geral">
         <div class="saldo-lancamentos">
-              <h5>Saldo e extrato da conta</h5>
+              <h3>Saldo e extrato da conta</h3>
               <ul class="saldo-lancamentos__menu">
               <li role="presentation" class="saldo-lancamentos__menu active">Últimos Lançamentos</li>
               <li role="presentation" class="saldo-lancamentos__menu">Lançamentos Futuros</li>
@@ -68,9 +68,7 @@
             <div class="saldo-lancamentos__limite">
                 <div class="saldo-lancamentos__limite--fatura-aberta">
                   <img src="./assets/cartao_credito.png" alt="">
-                  <p>Fatura aberta</p>
-                    <h5>R$ 100,00</h5>
-                  <p>Vencimento 08/09</p>
+                  
                 </div>
                 <div class="lancamentos__limite--fatura">
                   <p>Limite disponível</p>
@@ -80,15 +78,58 @@
             </div>
             <div class="fatura-aberta">
               <p>Fatura aberta</p>
-              <h4 class="">R$ 100,00</h5>
+              <h4 class="fatura-valor">R$ 100,00</h5>
               <p>vencimento 08/09</p>
             </div>
             <div class="saldo-extrato">
-              <ul class="saldo-lancamentos__menu">
-              <li role="presentation" class="saldo-lancamentos__menu">Data</li>
+              <ul class="saldo-lancamentos__menu tabela-header">
+              <li role="presentation" class="saldo-lancamentos__menu tabela-header">Data</li>
               <li role="presentation" class="saldo-lancamentos__menu">Descrição</li>
               <li role="presentation" class="saldo-lancamentos__menu">Valor (RS)</li>
-            </div>
+            </ul>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">21/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">SALDO</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">1.000,00</li>
+                  </ul>
+                </div>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">21/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">Energia</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">100,00</li>
+                  </ul>
+                </div>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">21/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">Michele</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">100,00</li>
+                  </ul>
+                </div>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">19/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">Cinema</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">40,00</li>
+                  </ul>
+                </div>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">19/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">Messias</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">80,00</li>
+                  </ul>
+                </div>
+                <div class="extrato-tabela">
+                  <ul class="saldo-lancamentos__menu tabela">
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">17/08</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">Internet</li>
+                    <li role="presentation" class="saldo-lancamentos__menu tabela">120,00</li>
+                  </ul>
+                </div>
+              </div>
         </div>
         <div class="dados-user">
 
@@ -98,9 +139,14 @@
             </div>
 
             <div class="menuInfocliente">
+              <div class ="menu_card">
                 <span class="menuInfocliente_active">Minha Conta</span>
                 <span class="menuInfocliente_inactive">Contatos</span>
                 <span class="menuInfocliente_inactive">Agencia</span>
+              </div>
+              <div class = "Gerente">
+                Seu Gerente
+              </div>
             </div>
 
             <div class="menuInfocliente_columns">
@@ -123,34 +169,9 @@
           </div>
 
           <div class="pagamentos">
-              <div>
-                <span class="dados-user_nome">Pagamentos</span>
-             </div>             
-             <div class="card-pagamentos">    
-              <ul class="saldo-lancamentos__menu">
-                 <li role="presentation" class="saldo-lancamentos__menu active">Últimos Pagamentos</li>                        
-              </ul>              
-             </div> 
-             <div class="card-top-pagamentos">                            
-              <ul class="saldo-lancamentos__menu">
-                <li role="presentation" class="saldo-lancamentos__menu active">Top Pagamentos</li>                        
-             </ul>              
-            </div>           
           </div>
+
           <div class="ultimas-transferencias">
-            <div>
-              <span class="dados-user_nome">Transferências</span>
-          </div>     
-          <div class="card-transferencia">
-            <ul class="saldo-lancamentos__menu">
-              <li role="presentation" class="saldo-lancamentos__menu active">Últimas transferências</li>                        
-           </ul>  
-          </div>
-          <div class="card-top-transferencia"> 
-            <ul class="saldo-lancamentos__menu">
-              <li role="presentation" class="saldo-lancamentos__menu active">Top transferências</li>                        
-           </ul>                             
-          </div>
           </div>
         </div>
       </main>
