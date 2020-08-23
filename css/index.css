@@ -3,6 +3,10 @@ button {
   color: #fff!important;
 }
 
+button :hover {
+  background: blue!important;
+}
+
 .header-div{
   background: #CAA360;
   height: 140px;
@@ -24,7 +28,7 @@ button {
 
 .menu-div div:hover {
   cursor: pointer;
-  background-color: blue;
+  background-color: #28262E;
 }
 
 
@@ -395,8 +399,7 @@ background-repeat: no-repeat;
 .saldo-lancamentos__menu{
   display: flex;
   width: 100%;
-  
-  
+  justify-content: space-evenly;
 }
 .saldo-lancamentos__menu li{
   margin: 5px 28px;
@@ -435,7 +438,29 @@ background-repeat: no-repeat;
   justify-content: space-between;
   font-family: Roboto;
   font-style: normal;
-  
+}
+
+.saldo-extrato_pagamento {
+  display: flex;
+  background-color:#FFFFFF;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 4px;
+  width: 240px;
+  max-height: 137px;
+}
+
+.saldo-lancamentos__menu__pagamento li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 12px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.saldo-lancamentos__menu__pagamento tabela{
+  /* margin: 0; */
 }
 
 .extrato-tabela {
@@ -445,6 +470,12 @@ background-repeat: no-repeat;
 .tabela {
   background-color: #F6EADF;
   border-radius: 10px;
+}
+
+.tabela__pagamento {
+  background-color: #F6EADF;
+  border-radius: 10px;
+  padding: 0;
 }
 
 .tabela-header > li{
@@ -605,4 +636,37 @@ background-repeat: no-repeat;
 
  .header {
   border-bottom: 1px solid;
+ }
+
+ .pagamentos {
+   display: flex;
+   flex-direction: column;
+  }
+  
+  .content_card_pagamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ .pagamentos_span{
+  border-bottom: 1px solid;
+  width: 147px;
+  margin-bottom: 12px;
+  text-align: center;
+ }
+
+ .pagamento_button {
+  width: 42px;
+  height: 42px;
+  margin-left: 180px;
+  border-radius: 50%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .pagamento_button:hover {
+  background: blue;
  }
