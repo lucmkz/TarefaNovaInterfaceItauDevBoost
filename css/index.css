@@ -32,7 +32,6 @@ body {
 
 
 .img-home{
-  position: absolute;
   width: 20px;
   height: 20px;
   left: 13px;
@@ -41,7 +40,6 @@ body {
 }
 
 .img-transferencia{  
-  position: absolute;
   width: 20px;
   height: 20px;
   left: 13px;
@@ -50,43 +48,38 @@ body {
 }
 
 .img-transferencia{  
-  position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 13px;
+  width: 20px;
+  height: 20px;
+  left: 13px;
   background-image: url("../assets/transfer.png");
 background-repeat: no-repeat;  
 }
 
 .img-cartoes{  
-  position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 13px;
+  width: 20px;
+  height: 20px;
+  left: 13px;
   background-image: url("../assets/credit-card.svg");
 background-repeat: no-repeat;  
 }
 
 .img-emprestimo{
-  position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 13px;  
+  width: 20px;
+  height: 20px;
+  left: 13px;  
   background-image: url("../assets/file-text.svg");
 background-repeat: no-repeat;  
 }
 
 .img-pagamento{  
-  position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 13px;
+  width: 20px;
+  height: 20px;
+  left: 13px;
   background-image: url("../assets/dollar-sign.svg");
 background-repeat: no-repeat;  
 }
 
 .img-ajuda{  
-  position: absolute;
   width: 20px;
   height: 27px;
   left: 13px;
@@ -109,109 +102,28 @@ background-repeat: no-repeat;
 }
 
 .menu-home{
-    width: 143px;
-    height: 36px;
-    background: #2457AB;
-    border: 1px solid #7E7E7E;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    padding-left: 53px;
-    padding-top: 9px;
-    color: #FFFFFF;
-    margin-top: 143px;
+  width: 143px;
+  height: 36px;
+  background: #062C6A;
+  border: 1px solid #7E7E7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding: 0 11px;
+  transition: all 0.2s ease-in-out;
 } 
 
-.transferencia{
-  height: 36px;
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  padding-left: 53px;
-  padding-top: 9px;
-  color: #FFFFFF;
-}
-
-.pagamento{
-  height: 36px;
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  padding-left: 53px;
-  padding-top: 9px;
-  color: #FFFFFF;
-
-}
-
-.cartoes{
-  height: 36px;
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;
-  
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  padding-left: 53px;
-  padding-top: 9px;
-  color: #FFFFFF;
-}
-
-.emprestimo{
-  height: 36px;
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  padding-left: 53px;
-  padding-top: 9px;
-  color: #FFFFFF;
-}
-
-.ajuda{
-  height: 36px;
-  background: #062C6A;
-  border: 1px solid #7E7E7E;
-  box-sizing: border-box;
-  border-radius: 6px;  
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  padding-left: 53px;
-  padding-top: 9px;
-  color: #FFFFFF;
-  
+.activeMenu {
+  background: #2457AB;
 }
 
 .header-div{
@@ -331,11 +243,13 @@ background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   background: #CAA360;
+  padding-top: 147px;
 }
 
 .menu-div div:hover {
   cursor: pointer;
   background-color: blue;
+  margin-left: 20px;
 }
 
 .body {  
