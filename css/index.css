@@ -430,9 +430,9 @@ background-repeat: no-repeat;
   width: 528px;
   height: 20rem;
   background: #F6F2EE;
-  border: solid 1px;
+  /*border: solid 1px;*/
   border-radius: 10px;
-  padding: 20px;
+  padding: 12px;
 }
 
 .dados-user {
@@ -448,6 +448,7 @@ background-repeat: no-repeat;
 .menuInfocliente{
   display: flex;
   justify-content: space-between;
+  margin-top: 2px;
 }
 
 .menuInfocliente_active{
@@ -461,12 +462,18 @@ background-repeat: no-repeat;
 .menuInfocliente_columns{
   display: flex;
   justify-content: space-around;
+  margin-top: 6px;
 }
 
 .dados-user_informacoesCliente{
   display: flex;
   flex-direction: column;
 }
+
+.dados-user_informacoesCliente span + span {
+  margin-top: 4px;
+}
+
 
 .dados-user_others{
   display: flex;
@@ -476,7 +483,9 @@ background-repeat: no-repeat;
 .dados-user_others div{
   display: flex;
 }
-
+.dados-user_others span + span{
+  margin-top: 4px;
+}
  .foto_beltrano{
    background-image: url('../assets/avatar.png');
    height: 40px;
@@ -494,6 +503,7 @@ background-repeat: no-repeat;
  .dados-user_others button {
    height: 29px;
    border-radius: 20px;
+   margin-top: 4px;
  }
 
  .dados-user_others button:hover {
@@ -525,6 +535,7 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 8px;
  }
 
  .pagamentos_span{
@@ -535,9 +546,10 @@ background-repeat: no-repeat;
  }
 
  .pagamento_button {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   margin-left: 180px;
+  margin-top: 8px;
   border-radius: 50%;
   font-size: 35px;
   display: flex;
