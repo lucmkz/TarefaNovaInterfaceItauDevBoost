@@ -7,6 +7,10 @@ button :hover {
   background: blue!important;
 }
 
+body {
+  background: #CAA360!important;
+}
+
 .header-div{
   background: #CAA360;
   height: 140px;
@@ -83,14 +87,17 @@ background-repeat: no-repeat;
 
 .img-ajuda{  
   position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 13px;
-background-image: url("../assets/lightbulb.svg");
-background-repeat: no-repeat;  
+  width: 20px;
+  height: 27px;
+  left: 13px;
+  background-image: url(../assets/lightbulb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -5px; 
 }
 
 .img-footer{
+  margin-right: 10px;
   position: absolute;
   height: 40px;
   width: 40px;
